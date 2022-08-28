@@ -12,7 +12,6 @@
 }
 .black{
     background-color: black;
-    border: solid white 1px;
 }
 .container > div{
     width: calc(100% / 16); /* the 16 here is x and needs to change*/
