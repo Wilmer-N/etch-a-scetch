@@ -7,11 +7,14 @@
     height: 500px;
     margin: 0 auto;
     border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .black{
     background-color: black;
+    border: solid white 1px;
 }
-.container.div{
-    width: 30px;
-    height: 30px;
+.container > div{
+    width: calc(100% / 16); /* the 16 here is x and needs to change*/
+    height: calc(100% / 16);
 }
