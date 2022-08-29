@@ -36,6 +36,13 @@ const pixels = document.querySelectorAll(".pixel")
 
 canvasSize.addEventListener("click", ()=>{
     let width = prompt("choose")
+    if(width > 100){
+        alert("to large of a number")
+        return
+    }else if(width < 1){
+        alert("only positive numbers")
+        return
+    }
     const pixels = document.querySelectorAll(".pixel")
     pixels.forEach(pixel => {
         pixel.classList.remove("black")
