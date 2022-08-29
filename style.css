@@ -1,14 +1,13 @@
-*{
-    box-sizing: border-box;
-}
+
 
 .container{
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     margin: 0 auto;
-    border: solid black 1px;
+    border: solid black 5px;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 .black{
     background-color: black;

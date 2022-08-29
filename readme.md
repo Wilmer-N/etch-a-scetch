@@ -11,3 +11,4 @@ problems:
 2. make each div turn black when mouse hovers over;
     - addEventlistener to each div that when mouse hovers over add a class wich has backgroundcolor of blackM
 
+I should try addid a function for the width
