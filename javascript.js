@@ -35,12 +35,12 @@ createLoop(width)
 const pixels = document.querySelectorAll(".pixel")
 
 canvasSize.addEventListener("click", ()=>{
-    let width = prompt("choose")
+    let width = prompt("Choose canvas width")
     if(width > 100){
-        alert("to large of a number")
+        alert("To large of a number")
         return
     }else if(width < 1){
-        alert("only positive numbers")
+        alert("Please enter a positive number")
         return
     }
     const pixels = document.querySelectorAll(".pixel")
