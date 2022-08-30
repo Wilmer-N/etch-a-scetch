@@ -1,6 +1,6 @@
 
 body{
-    background-color: aliceblue;
+    background-color: #86b049;
     display: flex;
     justify-content: center;
     
@@ -8,10 +8,10 @@ body{
 .container{
     width: 600px;
     height: 600px;
-    border: solid #888 5px;
+    border: solid #c8b88a 10px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
     background-color: white;
     flex-shrink: 0;
 }
@@ -27,11 +27,24 @@ button{
     padding: 1em;
     font-weight: bold;
     border-radius: 10px;
+    margin: 5px;
+    background-color; #c8b88a;
+    border: #444 solid 3px;
+    color: #444;
+}
+
+button:hover{
+    background-color: #ccc;
 }
 
 .btnWrapper{
-    height: 600px;
+    height: calc(600px - 2em);
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    background-color: #476930;
+    padding: 1em;
+    border-radius: 10px 0 0 10px ;
+    border: solid #c8b88a 10px;
+    border-right: #c8b88a;
 }

@@ -14,7 +14,7 @@ function color(newDiv){
     blackColor.addEventListener("click", ()=>{
     newDiv.addEventListener("mouseover", function(){
         newDiv.classList.add("black");
-    })})
+            })})
     resetBtn.addEventListener("click", () =>{
         newDiv.classList.remove("black")})
         erase.addEventListener("click", ()=>{
