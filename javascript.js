@@ -1,6 +1,8 @@
 const container = document.querySelector(".container")
 const resetBtn = document.querySelector(".reset")
 const canvasSize = document.querySelector(".chooseWidth")
+const erase = document.querySelector(".white");
+const blackColor = document.querySelector(".black-color")
 
 
 let width = 16
@@ -9,11 +11,16 @@ let width = 16
 
 
 function color(newDiv){
+    blackColor.addEventListener("click", ()=>{
     newDiv.addEventListener("mouseover", function(){
         newDiv.classList.add("black");
-    })
+    })})
     resetBtn.addEventListener("click", () =>{
         newDiv.classList.remove("black")})
+        erase.addEventListener("click", ()=>{
+            newDiv.addEventListener("mouseover", function(){
+            newDiv.classList.remove("black");
+            })}) 
 }
 
 function createGrid(width){
